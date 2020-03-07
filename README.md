@@ -5,7 +5,7 @@ This project was written by me as a final course assignment.
 In this project, I implement the k-means algorithm for finding K-clusters, in a time range and
 stop when I find a smaller Q (Quailty) than a given QM (Quailty).
 
-I solved the problem by parallel implementation using MPI, OMP and CUDA.
+I solved the problem by parallel and distributed implementation using OMP, CUDA and MPI
 
 ## The development processes
 Before starting to implement the project, I wrote a small Python program in order to have an
