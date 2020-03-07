@@ -1,11 +1,10 @@
 # K-Means
 Parallel and Distributed implementation of K-Means algorithm
 
-## Introduction
 This project was written by me as a final course assignment.
 
 In this project, I implement the k-means algorithm for finding K-clusters, in a time range and
-stop when I find a smaller Q than a given QM.
+stop when I find a smaller Q (Quailty) than a given QM (Quailty).
 
 I solved the problem by parallel implementation using MPI, OMP and CUDA.
 
@@ -16,7 +15,7 @@ The program random K centers as starting points. For each point the
 program random some points and gives them, a velocity vector in a way that makes them
 converge to the central point at the end of the time.
 
-At the begging, I implemented the k-means algorithm on one computer in sequential . I used a
+At the begging, I implemented the k-means algorithm on one computer in sequential. I used a
 small file (100 points) to check the implementation. Then I run a larger file.
 
 Next I started to implement the parallel code.
