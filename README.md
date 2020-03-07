@@ -1,5 +1,5 @@
-# Kmeans
-Parallel and Distributed implementation of K-Means
+# K-Means
+Parallel and Distributed implementation of K-Means algorithm
 
 ## Introduction
 This project was written by me as a final course assignment.
@@ -35,7 +35,7 @@ the slaves about the data. After that the Master send a selected time to one of 
 slave runs the K-means algorithm and at the end, updates the Master if the desired QM is
 found.
 
-=Figure 2
+![Figure 2](https://github.com/YanivBir/K-Means/blob/master/figures/figure1.png)
 
 ## Parallel implementation in OMP
 I parallel the following parts using OMP
@@ -77,3 +77,6 @@ kmeansCuda.c file).
 * **Calculating the diameter of a specific cluster:** Calculated by finding the maximum
 distance between two points in a cluster Can be parallel, in complexity of o(n ^ 2) (It
 appears in the code as: cuda_ findDiameter in kmeansCuda.c file).
+
+## Systems Architecture
+![Systems Architecture](https://github.com/YanivBir/K-Means/blob/master/figures/SystemsArchitecture.png)
