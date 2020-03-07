@@ -2,7 +2,6 @@
 Parallel and Distributed implementation of K-Means algorithm
 
 This project was written by me as a final course assignment.
-
 In this project, I implement the k-means algorithm for finding K-clusters, in a time range and
 stop when I find a smaller Q (Quailty) than a given QM (Quailty).
 
